@@ -1,0 +1,32 @@
+.addproduct{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px 50px;
+    margin:10px;
+    height:83vh;
+    border-radius:6px;
+    background :white;
+    overflow:auto;
+}
+
+.addbtn{
+    padding:10px;
+    border:none;
+    border-radius:2px;
+    font-size:15px;
+    background:#007bff;
+    color:white;
+}
+.add{
+    margin-top:15px;
+    text-align:center;
+}
+.addproduct-items{
+    width:80%;
+    margin:auto;
+    
+}
+.addproduct-items input{
+    width:100%;
+    padding:8px;
+}

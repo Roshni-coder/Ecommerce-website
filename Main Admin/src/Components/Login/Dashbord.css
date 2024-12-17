@@ -1,0 +1,61 @@
+/* Dashboard.css */
+
+/* Basic container styling */
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Inner content styling */
+  .dashboard-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .dashboard-content h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Welcome message styling */
+  .dashboard-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Button for logging out or other actions */
+  .dashboard-content button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-content button:hover {
+    background-color: #1a5bb8;
+  }
+  
+  /* Error message styling (for redirects or unauthorized access) */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
