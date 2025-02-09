@@ -51,7 +51,6 @@ const getProductDetails = ({product}) => {
         <Typography><StyledBedge />Bank Offer : 5% Unlimited Cashback on Flipkart Axis Bank Credit CardT&C</Typography>
         <Typography><StyledBedge />Bank Offer : 10% off up to ₹1,250 on HDFC Bank Credit Card Transactions. Min Txn Value: ₹7,499T&C</Typography>
         <Typography><StyledBedge />Special Price : Get extra 88% off (price inclusive of cashback/coupon)T&C</Typography>
-
       </SmallText>
       <Table>
         <TableBody>
